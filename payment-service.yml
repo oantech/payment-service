@@ -1,2 +1,6 @@
 server:
   port: 9000
+
+app:
+  data:
+    secret: vault://secret/data/payment/dev#secret-key
